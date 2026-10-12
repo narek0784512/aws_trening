@@ -1,0 +1,27 @@
+# Зависимости
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Сборка
+frontend/build/
+dist/
+
+# Переменные окружения
+.env
+.env.local
+*.env
+
+# Логи
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
